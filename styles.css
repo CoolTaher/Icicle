@@ -1,0 +1,46 @@
+
+/* ------------------------------------------ Side Bar CSS-------------------------------------- */
+.upload-text {
+    font-size: 17px;
+    color: #b1f7fc;
+    text-align: center;
+    font-weight: bolder;
+    /* text-decoration: underline; */
+    
+}
+
+.info-text {
+    font-size: 15px;
+    color: #0077b6; /* Ocean Blue color */
+    background-color: #f0f0f0; /* Light grey background color */
+    border-radius: 10px;
+    text-align: center;
+    font-weight: bolder;
+    text-decoration: underline 2px;
+}
+
+/* ------------------------------------------ Chat UI CSS-------------------------------------- */
+
+/* #Footer */
+
+.footer a:link, .footer a:visited {
+    color: white;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+.footer a:hover, .footer a:active {
+    color: lightblue;
+    background-color: transparent;
+    text-decoration: underline;
+}
+.footer {
+    position: fixed;
+    left: 5rem;
+    bottom: 3px;
+    width: 100%;
+    background-color: transparent;
+    color: white;
+    text-align: center;
+    align-items: center;
+}
