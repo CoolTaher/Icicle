@@ -17,7 +17,6 @@ Welcome to **Icicle**, a GenAI Vision Language Model application. This project l
 
 - Image and GIF processing
 - Natural language interaction with images
-- Powered by the `moondream2` model from [vikhyatk](https://huggingface.co/vikhyatk/moondream2)
 - Streamlit-based user interface
 - Local and remote deployment capabilities
 
@@ -45,5 +44,5 @@ localtunnel (for remote access)
 For better performance, it is recommended to use a local GPU. If you do not have access to a local GPU, you can use Google Colab's T4 inference. This will significantly speed up the processing time.
 
 ## Credits
-The model moondream2 used in this project is provided by vikhyatk.
+The model `moondream2` used in this project is provided by [vikhyatk](https://huggingface.co/vikhyatk/moondream2).
 
