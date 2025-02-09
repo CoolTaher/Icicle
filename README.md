@@ -39,6 +39,9 @@ You can try out the model directly on Hugging Face Spaces -> https://huggingface
 - Pillow
 - Streamlit Extras
 - localtunnel (for remote access)
+- pyvips
+- To install system dependencies: The setup.sh script will need to be executed on the deployment platform to install libvips. Please install ./setup.sh after cloning the repository, or you can configure it as part of the deployment pipeline.
+
 
 ## Performance Note
 For better performance, it is recommended to use a local GPU. If you do not have access to a local GPU, you can use Google Colab's T4 inference. This will significantly speed up the processing time.

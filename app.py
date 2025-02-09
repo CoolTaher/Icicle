@@ -20,7 +20,7 @@ def chat_UI(model, tokenizer, device, uploaded_file):
 
 def process_input(model, tokenizer, device, uploaded_file, is_gif=False):
     st.subheader("Uploaded Image:")
-    st.image(uploaded_file, caption='Uploaded Image', use_column_width=True)
+    st.image(uploaded_file, caption='Uploaded Image', use_container_width=True)
 
     conversation = st.session_state.get("conversation", [])
 
@@ -38,12 +38,10 @@ def process_input(model, tokenizer, device, uploaded_file, is_gif=False):
 
         chat_record("ai", response)
 
-        # Recodring Update conversation history
         conversation.append({'speaker': 'ai', 'message': response})
 
         st.session_state["conversation"] = conversation
 
-    # Display the AI responses in sequential order
     for i, chat in enumerate(conversation):
         if chat['speaker'] == 'ai':
             st.text_area(f"AI Response {i+1}", value=chat['message'],max_chars=None, key=None)
