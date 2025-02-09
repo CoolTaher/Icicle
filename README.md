@@ -34,12 +34,12 @@ Welcome to **Icicle**, a GenAI Vision Language Model application. This project l
 You can try out the model directly on Hugging Face Spaces -> https://huggingface.co/spaces/CoolT/Icicle .
 
 ## Requirements
-Python 3.x
-Streamlit
-Transformers
-Pillow
-Streamlit Extras
-localtunnel (for remote access)
+- Python 3.x
+- Streamlit
+- Transformers
+- Pillow
+- Streamlit Extras
+- localtunnel (for remote access)
 
 ## Performance Note
 For better performance, it is recommended to use a local GPU. If you do not have access to a local GPU, you can use Google Colab's T4 inference. This will significantly speed up the processing time.
